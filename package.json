@@ -1,0 +1,36 @@
+{
+  "name": "platzigram-ws",
+  "version": "1.0.0",
+  "description": "Backend realtime de Platzigram",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidjgomez/platzigram-ws.git"
+  },
+  "keywords": [
+    "platzi",
+    "javascript",
+    "curso-definitivo",
+    "platzigram"
+  ],
+  "author": "David Gómez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidjgomez/platzigram-ws/issues"
+  },
+  "homepage": "https://github.com/davidjgomez/platzigram-ws#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "standard": "^8.4.0"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^1.5.1"
+  }
+}
